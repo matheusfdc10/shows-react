@@ -11,12 +11,12 @@ import Video from './pages/Video'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "",
     element: <App />,
     errorElement: <h1>Error</h1>,
     children: [
       {
-        path: "",
+        path: "/",
         element: <Home />
       },
       {

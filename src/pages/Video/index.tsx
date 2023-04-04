@@ -19,7 +19,6 @@ const Video = () => {
 
     const handleGetVideo = async () => {
         const results = await api.getVideo(id!)
-        console.log(results)
         setShow(results)
     }
 

@@ -20,7 +20,7 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "show/:id",
+        path: "/show/:id",
         element: <Video />
       }
     ]

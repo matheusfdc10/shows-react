@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const CardStyled = styled.div`
-cursor: pointer;
+    cursor: pointer;
+    transition: 300ms;
 
     > div {
         border-radius: 12px 12px 0 0;
@@ -27,7 +28,12 @@ cursor: pointer;
     }
 
     :hover {
-        opacity: 60%;
+        transform: scale(1.1);
+        opacity: 90%;
+    }
+
+    :active {
+        transform: scale(1.075);
     }
 
 `

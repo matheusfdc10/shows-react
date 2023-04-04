@@ -20,6 +20,7 @@ export const InputStyled = styled.div`
         border: none;
         width: 100%;
         outline: 0px;
+        font-size: 1.6rem;
     }
 
 `

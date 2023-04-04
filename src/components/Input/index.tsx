@@ -1,10 +1,13 @@
+import React from "react";
 import { InputStyled } from "./style";
 
-const Input = ({...props}) => {
+type InputProps = React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> & {}
+
+const Input = ({children, ...props}: InputProps) => {
     return (
         <InputStyled>
             <input {...props}/>
-            <span>X</span>
+            {children}
         </InputStyled>
     )
 }

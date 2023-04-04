@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import Input from "../Input";
 import { HeaderStyled } from "./style";
+import Button from "../Button";
+import {BiSearch} from 'react-icons/bi'
 
 const Header = () => {
     const navigate = useNavigate()
@@ -11,8 +13,10 @@ const Header = () => {
                 <h1 onClick={() => navigate('')}>SHOWS</h1>
                 <Input 
                     placeholder="Pesquisar"
-                />
-                <button onClick={() => navigate('')}>Home</button>
+                >
+                    <BiSearch/>
+                </Input>
+                <Button className="btn" bg="#fff" onClick={() => navigate('')}>Home</Button>
             </div>
         </HeaderStyled>
     )

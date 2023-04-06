@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CardStyled = styled.div`
-    max-width: 248px;
+    // max-width: 248px;
     cursor: pointer;
     transition: 300ms;
 

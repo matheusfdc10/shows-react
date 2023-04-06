@@ -9,7 +9,6 @@ import { SearchContext } from "../../contexts/Search";
 const Header = () => {
     const { Search, SetSearch } = useContext(SearchContext);
     const {pathname} = useLocation()
-    console.log(pathname)
     const navigate = useNavigate()
 
     return (

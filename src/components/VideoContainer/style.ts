@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const VideoContainerStyle = styled.div`
-    margin: 12px 18px 12px 18px;
+    margin: 0 18px;
 
     > h1 {
         margin-top: 25px;

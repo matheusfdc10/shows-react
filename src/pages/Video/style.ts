@@ -5,7 +5,7 @@ export const VideoStyled = styled.div`
 
     > h1 {
         text-align: center;
-        margin-bottom: 12px;
+        margin-bottom: 20px;
     }
 
     > video {

@@ -1,13 +1,8 @@
 import styled from "styled-components";
 
 export const CardStyled = styled.div`
-    // max-width: 248px;
     cursor: pointer;
     transition: 300ms;
-
-    @media (max-width: 420px){
-        max-width: none;
-    }
 
     > div {
         border-radius: 12px 12px 0 0;

@@ -5,6 +5,10 @@ export const HeaderStyled = styled.header`
     box-shadow: 0px 4px 5px rgba(5, 59, 75, 0.06);
     min-height: 70px;
     padding: 18px 18px;
+
+    position: fixed;
+    width: 100%;
+    z-index: 10;
     
     > .container {
         height: 100%;

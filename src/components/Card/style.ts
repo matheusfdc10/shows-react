@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
 export const CardStyled = styled.div`
+    max-width: 248px;
     cursor: pointer;
     transition: 300ms;
+
+    @media (max-width: 420px){
+        max-width: none;
+    }
 
     > div {
         border-radius: 12px 12px 0 0;
@@ -22,8 +27,14 @@ export const CardStyled = styled.div`
         text-align: center;
         line-height: 2.6rem;
 
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        overflow: hidden;
+
         @media (max-width: 420px) {
             font-size: 1.8rem;
+            line-height: 1.8rem;
         }
     }
 

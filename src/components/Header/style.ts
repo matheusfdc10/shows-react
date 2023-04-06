@@ -17,6 +17,13 @@ export const HeaderStyled = styled.header`
         gap: 15px;
         flex-wrap: wrap;
 
+        @media (max-width: 420px) {
+            > :nth-child(3){
+                display: none;
+            }
+        }
+
+
         > h1 {
             color: #fff;
             font-size: 3.2rem;

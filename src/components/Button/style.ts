@@ -23,8 +23,8 @@ export const ButtonStyled = styled.div`
         transform: scale(0.98);
     }
 
-    @media (max-width: 420px) {
-        display: none;
-    }
+    // @media (max-width: 420px) {
+    //     display: none;
+    // }
 
 `

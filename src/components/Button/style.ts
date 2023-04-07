@@ -5,10 +5,11 @@ export const ButtonStyled = styled.div`
     border-radius: 6px;
 
     > button {
-        font-size: 1.6rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
         width: 100%;
         height: 100%;
-        padding: 4px 5px;
+        padding: 4px 4px;
         border: none;
         cursor: pointer;
         border-radius: 6px;

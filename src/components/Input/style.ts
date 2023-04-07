@@ -6,7 +6,8 @@ export const InputStyled = styled.div`
     background-color: #fff;
     border-radius: 25px;
     padding: 0 8px;
-    height: 32px;
+    // height: 32px;
+    height: 3.2rem;
     overflow: hidden;
 
     display: flex;

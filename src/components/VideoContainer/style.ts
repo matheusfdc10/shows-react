@@ -4,6 +4,8 @@ export const VideoContainerStyle = styled.div`
     margin: 0 18px;
 
     > h1 {
+        font-size: 3.2rem;
+        line-height: 3.2rem;
         margin-top: 25px;
         margin-bottom: 10px;
     }

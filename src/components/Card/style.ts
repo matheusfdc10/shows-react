@@ -42,18 +42,18 @@ export const CardStyled = styled.div`
 
     > h3 {
         font-size: 2.6rem;
+        line-height: 3.1rem;
         text-align: center;
-        line-height: 2.6rem;
 
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
         display: -webkit-box;
         overflow: hidden;
 
-        @media (max-width: 420px) {
-            font-size: 1.8rem;
-            line-height: 1.8rem;
-        }
+        // @media (max-width: 420px) {
+        //     font-size: 1.8rem;
+        //     line-height: 1.8rem;
+        // }
     }
 
     :hover {

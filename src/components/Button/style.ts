@@ -7,6 +7,7 @@ export const ButtonStyled = styled.div`
     > button {
         font-size: 2rem;
         line-height: 2.2rem;
+        font-weight: bold;
         width: 100%;
         height: 100%;
         padding: 4px 4px;
@@ -16,7 +17,7 @@ export const ButtonStyled = styled.div`
         background-color: transparent;
     }
 
-    :hove {
+    :hover {
         opacity: 0.9;
     }
 

@@ -5,7 +5,7 @@ export const InputStyled = styled.div`
     max-width: 400px;
     background-color: #fff;
     border-radius: 25px;
-    padding: 0 8px;
+    padding: 0 12px;
     // height: 32px;
     height: 3.2rem;
     overflow: hidden;
@@ -21,7 +21,7 @@ export const InputStyled = styled.div`
         border: none;
         width: 100%;
         outline: 0px;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
 `

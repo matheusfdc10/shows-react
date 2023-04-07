@@ -33,10 +33,16 @@ export const CardStyled = styled.div`
         background-color: #000;
         padding: 16px;
         margin-bottom: 4px;
+        min-height: 18rem;
+        min-width: 18rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         > img {
             width: 100%;
-            height: 100%;
+            // height: 100%;
         }
     }
 

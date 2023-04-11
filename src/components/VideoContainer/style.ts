@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const VideoContainerStyle = styled.div`
     margin: 0 18px;
+    margin-bottom: 50px;
 
     > h1 {
         font-size: 3.6rem;
         line-height: 3.6rem;
-        margin-top: 25px;
+        /* margin-top: 25px; */
         margin-bottom: 16px;
     }
 

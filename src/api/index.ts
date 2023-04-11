@@ -60,7 +60,7 @@ export default {
     loveLive: async (data: ShowsProps, type: 'love' | 'like', themaID: string) => {
         var results = db.collection("playlist").doc(themaID)
 
-        results.get().then(function(doc) {
+        await results.get().then(function(doc) {
             if (doc.exists) {
                 var shows = doc.data()?.shows;
                 var show = shows.find(function(item: ShowsProps) {

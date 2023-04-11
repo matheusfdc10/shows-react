@@ -5,6 +5,7 @@ import { VideoStyled } from "./style";
 import {FcLike} from 'react-icons/fc'
 import {AiTwotoneLike} from 'react-icons/ai'
 import Button from "../../components/Button";
+import Loading from "../../components/Loading";
 
 type ShowsProps = {
     id: string,
@@ -34,15 +35,13 @@ const Video = () => {
     }
 
     if(!show){
-        return <h1>Carregando...</h1>
+        return <Loading />
     }
 
     return (
         <VideoStyled>
             <h1>{show.title}</h1>
-            <video controls controlsList="nodownload" 
-            // autoPlay
-            >
+            <video controls controlsList="nodownload" autoPlay>
                 <source src={show.url} type="video/mp4" />
             </video>
             <div className="actions">

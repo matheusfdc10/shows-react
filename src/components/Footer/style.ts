@@ -6,7 +6,7 @@ export const FooterStyled = styled.footer`
     height: 100px;
     padding: 12px 18px;
     color: #fff;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     
     > .container {
         height: 100%;

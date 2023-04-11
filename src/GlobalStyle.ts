@@ -56,6 +56,6 @@ export default createGlobalStyle`
     max-width: 1440px;
     width: 100%;
     // margin-top: 90px;
-    margin-top: 70px;
+    margin-top: 100px;
   }
 `

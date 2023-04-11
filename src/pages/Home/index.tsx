@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import api from "../../api"
 import VideoContainer from "../../components/VideoContainer"
+import Loading from "../../components/Loading"
 
 type ListProps = {
     id: string
@@ -25,7 +26,7 @@ const Home = () => {
     }
 
     if(!playList) {
-        return <h1>Carregando...</h1>
+        return <Loading />
     }
 
     return (

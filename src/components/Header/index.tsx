@@ -21,7 +21,7 @@ const Header = () => {
                         onChange={(e) => SetSearch(e.target.value)}
                         value={Search}
                     >
-                        <BiSearch/>
+                        <BiSearch fontSize='18px'/>
                     </Input>
                 }
                 <Button className="btn" bg="#fff" onClick={() => navigate('')}>Home</Button>

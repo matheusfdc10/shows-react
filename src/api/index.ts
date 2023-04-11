@@ -17,7 +17,9 @@ type ListProps = {
 type ShowsProps = {
     id: string
     title: string,
-    url: string
+    url: string,
+    like: number,
+    love: number
 }
 
 export default {
@@ -53,5 +55,29 @@ export default {
         })
 
         return show
+    },
+
+    loveLive: async (data: ShowsProps, type: 'love' | 'like', themaID: string) => {
+        var results = db.collection("playlist").doc(themaID)
+
+        results.get().then(function(doc) {
+            if (doc.exists) {
+                var shows = doc.data()?.shows;
+                var show = shows.find(function(item: ShowsProps) {
+                    return item.id === data.id;
+                });
+
+                if(show[type]){
+                    show[type] += 1
+                } else {
+                    show[type] = 1
+                }
+
+                results.update({
+                    shows: shows
+                })        
+
+            }
+        })
     }
 }

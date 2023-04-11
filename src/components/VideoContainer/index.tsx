@@ -13,10 +13,11 @@ interface ListShowsProps {
             title: string
             url: string
         }[]
-    }
+    },
+    themaID: string
 }
 
-const VideoContainer = ({listShows}: ListShowsProps) => {
+const VideoContainer = ({listShows, themaID}: ListShowsProps) => {
     const { Search } = useContext(SearchContext);
     const navigate = useNavigate()
 
@@ -29,7 +30,7 @@ const VideoContainer = ({listShows}: ListShowsProps) => {
                     const search = Search.toLowerCase()
                     return title.includes(search)
                 }).map(show => (
-                    <Card key={show.title} show={show} logo={listShows.title} onClick={() => navigate(`show/${show.id}`)}/>
+                    <Card key={show.title} show={show} logo={listShows.title} onClick={() => navigate(`/shows/${themaID}/show/${show.id}`)}/>
                 ))}
             </div>
         </VideoContainerStyle>       

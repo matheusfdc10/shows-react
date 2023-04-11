@@ -10,7 +10,7 @@ export const ButtonStyled = styled.div`
         font-weight: bold;
         width: 100%;
         height: 100%;
-        padding: 4px 4px;
+        padding: 8px 8px;
         border: none;
         cursor: pointer;
         border-radius: 6px;

@@ -7,7 +7,7 @@ export const InputStyled = styled.div`
     border-radius: 25px;
     padding: 0 12px;
     // height: 32px;
-    height: 3.2rem;
+    height: 32px;
     overflow: hidden;
 
     display: flex;
@@ -21,7 +21,7 @@ export const InputStyled = styled.div`
         border: none;
         width: 100%;
         outline: 0px;
-        font-size: 1.8rem;
+        font-size: 18px;
     }
 
 `

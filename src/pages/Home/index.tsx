@@ -31,7 +31,7 @@ const Home = () => {
     return (
         <>
             {playList.map(data => (
-                <VideoContainer key={data.id} listShows={data} />
+                <VideoContainer key={data.id} listShows={data} themaID={data.id}/>
             ))}
         </>
     )

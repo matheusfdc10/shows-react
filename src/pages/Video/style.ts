@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const VideoStyled = styled.div`
-    padding: 1rem 5%;
+    padding: 24px 5%;
 
     > h1 {
         text-align: center;

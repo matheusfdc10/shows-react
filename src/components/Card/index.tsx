@@ -17,8 +17,8 @@ const Card = ({show, logo, onClick}: ShowProps) => {
         <CardStyled
             title={show.title} 
             onClick={onClick} 
-            onMouseEnter={() => setVideoPreviw(old => old = true)} 
-            onMouseLeave={() => setVideoPreviw(old => old = false)}
+            // onMouseEnter={() => setVideoPreviw(old => old = true)} 
+            // onMouseLeave={() => setVideoPreviw(old => old = false)}
         >
             {videoPreview ?
                     <video autoPlay>
